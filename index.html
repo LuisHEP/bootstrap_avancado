@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Avançado</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        h2 {
+            font-weight: 400;
+            color: rgb(68, 255, 62);
+        }
+        .carousel-caption {
+            padding-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div id="carousel-exemplo" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div data-bs-interval="1000" class="carousel-item active">
+                <img src="./imagens/slide1.jpg" class="d-block w-100" alt="Imagem 1">
+                <div class="carousel-caption">
+                    <h2>Marvel 1</h2>
+                </div>
+            </div>
+            <div data-bs-interval="1000" class="carousel-item">
+                <img src="/imagens/slide2.jpg" class="d-block w-100" alt="Imagem 2">
+                <div class="carousel-caption">
+                    <h2>Marvel 2</h2>
+                </div>
+            </div>
+            <div data-bs-interval="1000" class="carousel-item">
+                <img src="./imagens/slide3.jpg" class="d-block w-100" alt="Imagem 3">
+                <div class="carousel-caption">
+                    <h2>Marvel 3</h2>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carousel-exemplo" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carousel-exemplo" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+        </a>
+    </div>
+    </div>
+
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="card">
+                    <img src="./imagens/card1.jpg" class="card-img-top" alt="Card 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Título do Card 1</h5>
+                        <p class="card-text">Texto descritivo do Card 1.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="card">
+                    <img src="./imagens/card2.jpg" class="card-img-top" alt="Card 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Título do Card 2</h5>
+                        <p class="card-text">Texto descritivo do Card 2.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="card">
+                    <img src="./imagens/card3.jpg" class="card-img-top" alt="Card 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Título do Card 3</h5>
+                        <p class="card-text">Texto descritivo do Card 3.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
